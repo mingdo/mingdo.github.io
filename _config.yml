@@ -46,7 +46,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: disqus_uKq2J82Zrr
+disqus_shortname: mingdo_disqus
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
