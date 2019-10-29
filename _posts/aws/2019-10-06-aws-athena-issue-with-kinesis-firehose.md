@@ -3,7 +3,7 @@ layout: post
 title:  "AWS Athena Issue With Kinesis Firehose"
 date:   2019-10-06 19:28:00
 author: Mingdo
-categories: AWS
+categories: aws
 tag: athena, kinesis
 ---
 
