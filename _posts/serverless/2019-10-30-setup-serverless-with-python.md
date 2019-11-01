@@ -107,12 +107,8 @@ api 호출
 $ curl -X GET http://localhost:3000/users/create
 ```
 
-결과 확인  
-
 ##### 배포
 
 ```
 $ sls deploy -v
 ```
-
-endpoint 확인 뒤 실행 및 결과 확인
