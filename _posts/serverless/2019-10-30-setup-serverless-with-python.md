@@ -27,17 +27,17 @@ $ serverless create \
 serverless.yml 파일로 배포할 함수 지정 및 함수 실행 방식 등을 설정할 수 있다.
 
 ### 패키지 관리를 위한 설정
-프로젝트 폴더로 이동
+프로젝트 폴더로 이동  
 ```
 $ cd my-first-serverless
 ```
 virtualenv 구성 및 실행
-- 로컬 환경과 상관없이 패키지들을 관리하기 위해 가상환경 설정
+- 로컬 환경과 상관없이 패키지들을 관리하기 위해 가상환경 설정  
 ```
 $ virtualenv venv --python=python3
 $ source venv/bin/activate
 ```
-npm 구성
+npm 구성  
 ```
 $ npm init
 ```
@@ -45,17 +45,17 @@ $ npm init
 ### 기본 패키지 설치
 serverless-python-requirements 설치  
 - lambda function 이 실제 컴파일되는 OS 로 compile 할 수 있게 도와준다.
-- requirements.txt 에 있는 패키지들을 묶어서 배포해준다.
+- requirements.txt 에 있는 패키지들을 묶어서 배포해준다.  
 ```
 $ npm install --save serverless-python-requirements
 ```
 serverless-offline 설치
-- 로컬에서 lambda function 배포한 뒤 테스트 가능하도록 도와준다.
+- 로컬에서 lambda function 배포한 뒤 테스트 가능하도록 도와준다.  
 ```
 $ npm install —-save serverless-offline
 ```
 serverless.yml 수정
-- 파일 끝에 아래 내용 추가
+- 파일 끝에 아래 내용 추가  
 ```
 plugins:
   - serverless-python-requirements
@@ -69,7 +69,7 @@ custom:
 ### lambda function 배포
 ##### 로컬 테스트
 serverless.yml 수정
-- http events 주석제거
+- http events 주석제거  
 ```
  59 functions: 
  60   hello: 
@@ -82,11 +82,12 @@ serverless.yml 수정
  67           path: users/create 
  68           method: get
 ```
-serverless offline start
+
+serverless offline start  
 ```
 $ sls offline start
 ```
-api 호출
+api 호출  
 ```
 $ curl -X GET http://localhost:3000/users/create
 ```
