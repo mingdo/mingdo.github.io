@@ -61,6 +61,12 @@ descriptions:
 
   - cat: tool
     desc: "Posts Development tools."
+  - cat: aws
+    desc: "Posts Amazon Web Services"
+  - cat: serverless
+    desc: "Posts Serverless Framework"
+  - cat: ror
+    desc: "Posts Ruby on Rails"
 
 # Social icons and sharing options
 #
