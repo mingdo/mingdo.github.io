@@ -29,7 +29,8 @@ pagination:
   per_page: 4
   sort_reverse: true
   title: ':title'
-  permalink: '/page/:num_'
+  paginate_path: "/page:num/"
+  #  permalink: '/page/:num_'
   trail:
     before: 2
     after: 2
