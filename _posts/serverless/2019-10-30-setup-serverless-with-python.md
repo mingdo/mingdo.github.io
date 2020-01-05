@@ -4,7 +4,7 @@ title:  "Serverless 프레임워크를 사용한 AWS Lmabda Function 배포"
 date:   2019-10-30 00:00:01
 author: Mingdo
 categories: serverless
-tag: serverless, python
+tags: [serverless, python, lambda, aws]
 ---
 
 Serverless 프레임워크를 사용해 aws lambda function 을 배포하는 방법에 대한 정리

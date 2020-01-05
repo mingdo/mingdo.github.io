@@ -4,7 +4,7 @@ title: "통계적 가설 검정"
 date:   2019-12-13 00:00:01  
 author: Mingdo  
 categories: statistics 
-tag: statistics, python   
+tags: [statistics, python, u-test]   
 ---
 
 # 통계적 가설 검정을 통한 두 집단의 변화 비교

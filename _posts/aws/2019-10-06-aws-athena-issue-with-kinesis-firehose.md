@@ -4,7 +4,7 @@ title:  "AWS Athena Issue With Kinesis Firehose"
 date:   2019-10-06 19:28:00
 author: Mingdo
 categories: aws
-tag: athena, kinesis
+tags: [athena, kinesis, infra, aws, problem]
 ---
 
 AWS Athena 서비스를 통해 Kinesis Firehose S3 백업 데이터를 가공하던 중 발생한 이슈에 대한 정리

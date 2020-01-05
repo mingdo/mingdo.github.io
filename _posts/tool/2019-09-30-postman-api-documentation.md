@@ -4,7 +4,7 @@ title:  "Postman API Documentation"
 date:   2019-09-30 06:15:00
 author: Mingdo
 categories: tool
-tag: postman
+tags: [postman, documentation, tool]
 ---
 
 # Postman 기반 API 문서화
