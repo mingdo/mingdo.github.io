@@ -55,6 +55,7 @@ descriptions:
   - cat: serverless
   - cat: ror
   - cat: spring
+  - cat: java
 
 # Social icons and sharing options
 #
