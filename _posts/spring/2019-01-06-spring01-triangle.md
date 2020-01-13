@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Spring01] Spring 핵심 3대 요소"
+title:  "[Spring-01] Spring 핵심 3대 요소"
 date:   2019-01-06 23:28:00
 author: Mingdo
 categories: spring
